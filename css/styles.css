@@ -1,0 +1,53 @@
+table {
+    border-collapse: collapse;
+}
+
+.tel::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    width: 16px;
+    height: 17px;
+    background: url(images/phone.png) no-repeat;
+    background-position: -53px 0;
+
+}
+
+.send {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fd8300;
+    font-weight: bold;
+    font-family: "Arial";
+    border-radius: 25px;
+    color: #fff;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.send:hover {
+    color: #25252c;
+    background-color: #fff;
+}
+
+.sale, .footer {
+    text-align: center;
+}
+
+.attened {
+    width: 170px;
+    border-radius: 20px;
+    background-color: #1f1f56;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 23px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+}
